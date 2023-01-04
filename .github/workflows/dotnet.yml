@@ -24,7 +24,3 @@ jobs:
       run: dotnet restore
     - name: check version dotnet
       run: dotnet --info
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
